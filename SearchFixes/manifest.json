@@ -1,0 +1,20 @@
+﻿{
+  "$schema": "https://raw.githubusercontent.com/bsmg/BSIPA-MetadataFileSchema/master/Schema.json",
+  "id": "SearchFixes",
+  "name": "SearchFixes",
+  "author": "PixelBoom",
+  "version": "1.0.0",
+  "description": "Fixes beat saber search and allows search by mapper name.",
+  "gameVersion": "1.16.4",
+    "dependsOn": {
+        "BSIPA": "^4.2.0",
+        "BeatSaberMarkupLanguage": "^1.5.3",
+        "SiraUtil": "^2.5.5"
+    },
+	"loadBefore": [
+		"SearchByMapperName"
+	],
+	"conflictsWith": {
+		"SearchByMapperName": "*"
+	}
+}
