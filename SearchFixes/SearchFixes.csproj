@@ -54,10 +54,6 @@
 			<HintPath>$(BeatSaberDir)\Libs\Newtonsoft.Json.dll</HintPath>
 			<Private>False</Private>
 		</Reference>
-		<Reference Include="BSML">
-			<HintPath>$(BeatSaberDir)\Plugins\BSML.dll</HintPath>
-			<Private>False</Private>
-		</Reference>
 		<Reference Include="SongCore">
 			<HintPath>$(BeatSaberDir)\Plugins\SongCore.dll</HintPath>
 			<Private>False</Private>
@@ -68,10 +64,6 @@
 		</Reference>
 		<Reference Include="Zenject-usage">
 			<HintPath>$(BeatSaberDir)\Beat Saber_Data\Managed\Zenject-usage.dll</HintPath>
-			<Private>false</Private>
-		</Reference>
-		<Reference Include="SiraUtil">
-			<HintPath>$(BeatSaberDir)\Plugins\SiraUtil.dll</HintPath>
 			<Private>false</Private>
 		</Reference>
 	</ItemGroup>

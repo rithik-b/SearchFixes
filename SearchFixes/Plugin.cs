@@ -1,14 +1,6 @@
 ﻿using IPA;
-using IPA.Config;
-using IPA.Config.Stores;
-using SiraUtil.Zenject;
 using System;
-using System.Collections;
-using System.Collections.Generic;
-using System.Linq;
 using System.Reflection;
-using System.Threading.Tasks;
-using UnityEngine;
 using IPALogger = IPA.Logging.Logger;
 
 namespace SearchFixes
@@ -28,7 +20,7 @@ namespace SearchFixes
         /// [Init] methods that use a Constructor or called before regular methods like InitWithConfig.
         /// Only use [Init] with one Constructor.
         /// </summary>
-        public Plugin(IPALogger logger, Zenjector zenjector)
+        public Plugin(IPALogger logger)
         {
             Instance = this;
             Plugin.Log = logger;
