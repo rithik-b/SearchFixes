@@ -1,6 +1,11 @@
 # SearchFixes
 An improved search algorithm for Beat Saber
 
+**Features:**
+- Search by song, artist, subname or mapper name
+- Search terms can be in any order and from any of those 4 categories
+- Search terms are matched using "and" instead of "or" (So saying "Night Raid" will show maps that have both words, "night" and "raid"
+
 ## Download
 Download the latest version of the mod (v0.1.0) [here](https://github.com/rithik-b/TakeMeToResults/releases/tag/0.1.0 "here").
 To install, move the dll to your Plugins folder.
