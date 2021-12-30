@@ -3,16 +3,20 @@
   "id": "SearchFixes",
   "name": "SearchFixes",
   "author": "PixelBoom",
-  "version": "0.1.0",
-  "description": "Fixes beat saber search and allows search by mapper name.",
-  "gameVersion": "1.16.4",
+  "version": "1.0.0",
+  "description": "An improved search algorithm for Beat Saber.",
+  "gameVersion": "1.19.0",
     "dependsOn": {
-        "BSIPA": "^4.2.0",
+        "BSIPA": "^4.2.1",
     },
 	"loadBefore": [
 		"SearchByMapperName"
 	],
 	"conflictsWith": {
 		"SearchByMapperName": "*"
-	}
+	},
+    "links": {
+        "project-source": "https://github.com/rithik-b/SearchFixes",
+        "donate": "https://ko-fi.com/pixelboom"
+    }
 }
