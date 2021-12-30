@@ -1,4 +1,4 @@
-﻿{
+{
   "$schema": "https://raw.githubusercontent.com/bsmg/BSIPA-MetadataFileSchema/master/Schema.json",
   "id": "SearchFixes",
   "name": "SearchFixes",
@@ -7,7 +7,7 @@
   "description": "An improved search algorithm for Beat Saber.",
   "gameVersion": "1.19.0",
     "dependsOn": {
-        "BSIPA": "^4.2.1",
+        "BSIPA": "^4.2.1"
     },
 	"loadBefore": [
 		"SearchByMapperName"
