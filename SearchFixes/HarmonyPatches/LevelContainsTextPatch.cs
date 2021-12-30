@@ -12,10 +12,10 @@ namespace SearchFixes.HarmonyPatches
 			int words = 0;
 			int matches = 0;
 
-			string songName = $" {beatmapLevel.songName} ";
-			string songSubName = $" {beatmapLevel.songSubName} ";
-			string songAuthorName = $" {beatmapLevel.songAuthorName} ";
-			string levelAuthorName = $" {beatmapLevel.levelAuthorName} ";
+			string songName = $" {beatmapLevel.songName.RemoveSpecialCharacters()} ";
+			string songSubName = $" {beatmapLevel.songSubName.RemoveSpecialCharacters()} ";
+			string songAuthorName = $" {beatmapLevel.songAuthorName.RemoveSpecialCharacters()} ";
+			string levelAuthorName = $" {beatmapLevel.levelAuthorName.RemoveSpecialCharacters()} ";
 
 			for (int i = 0; i < searchTexts.Length; i++)
 			{

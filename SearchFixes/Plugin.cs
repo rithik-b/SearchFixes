@@ -1,6 +1,7 @@
 ﻿using IPA;
 using System;
 using System.Reflection;
+using System.Text;
 using IPALogger = IPA.Logging.Logger;
 
 namespace SearchFixes
@@ -24,7 +25,6 @@ namespace SearchFixes
         {
             Instance = this;
             Plugin.Log = logger;
-            Plugin.Log?.Debug("Logger initialized.");
         }
 
         #region BSIPA Config
@@ -38,7 +38,6 @@ namespace SearchFixes
         }
         */
         #endregion
-
 
         #region Disableable
 
@@ -102,8 +101,7 @@ namespace SearchFixes
         {
             try
             {
-                // Removes all patches with this HarmonyId
-                harmony.UnpatchAll(HarmonyId);
+                harmony.UnpatchSelf();
             }
             catch (Exception ex)
             {
